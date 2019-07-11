@@ -1,0 +1,6 @@
+---
+# file: haproxy.yml
+- hosts: haproxy
+  roles:
+    - common
+    - haproxy

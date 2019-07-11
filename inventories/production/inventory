@@ -1,0 +1,11 @@
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_port=22
+ansible_ssh_user=min
+ansible_ssh_pass=abc123
+ansible_become_pass=Viettel@123
+ansible_become=true
+ansible_become_method=su
+
+[dbservers]
+192.168.122.50
